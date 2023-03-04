@@ -182,7 +182,7 @@ ul#nav li.current a { color: #fe6928; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #000524;
+   background: #240000;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -721,7 +721,7 @@ call-to-action .button {
 .flexslider .slides > li { position: relative; }
 
 /* Hide the slides before the JS is loaded. Avoids image jumping */
-.flexslider .slides > li { display: none; -webkit-backface-visibility: hidden; }
+.flexslider .slides > li { display: none;-k: hidden; }
 /* Suggested container for slide animation setups. Can replace this with your own */
 .flex-container { zoom: 1; position: relative; }
 
@@ -789,7 +789,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background: #191919;
+   background: rgba(34, 218, 89, 0.895);
    padding-top: 96px;
    padding-bottom: 102px;
    color: #636363;
@@ -837,7 +837,7 @@ call-to-action .button {
    margin: 12px 0;
    color: #EBEEEE;
 	display: inline-block;
-	float: left;
+	float: none;
    width: 26%;
 }
 #contact input,
@@ -928,7 +928,7 @@ call-to-action .button {
 footer {
    padding-top: 48px;
    margin-bottom: 48px;
-   color: #303030;
+   color: #eb1010;
    font-size: 14px;
    text-align: center;
    position: relative;

@@ -108,16 +108,17 @@ class Contact extends Component {
               <div className="widget widget_contact">
                 <h4>Address and Phone</h4>
                 <p className="address">
-                  {name}
+                  jhabar mal saini
+                  <br/>
+                  
+                  sodala<br />
+                  jaipur, rajasthan (303803)
                   <br />
-                  {street} <br />
-                  {city}, {state} {zip}
-                  <br />
-                  <span>{phone}</span>
+                  <span>8058499305</span>
                 </p>
               </div>
 
-              <div className="widget widget_tweets">
+              {/* <div className="widget widget_tweets">
                 <h4 className="widget-title">Latest Tweets</h4>
                 <ul id="twitter">
                   <li>
@@ -144,7 +145,7 @@ class Contact extends Component {
                     </b>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </aside>
           </Slide>
         </div>
